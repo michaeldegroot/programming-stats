@@ -1,6 +1,6 @@
-var data = {"labels": ["23 May", "24 May", "25 May", "26 May", "27 May", "28 May", "29 May"], "datasets": [{"languages": [[], [], [], [], ["JavaScript", "Other", "PHP"], ["JavaScript", "HTML", "JSON"], ["PHP", "JavaScript", "HTML"]], "pointHighlightFill": "#fff", "fillColor": "rgba(151,187,205,0.2)", "pointHighlightStroke": "rgba(151,187,205,1)", "time": ["0 secs", "0 secs", "0 secs", "0 secs", "5 hrs 27 mins", "10 hrs 36 mins", "2 hrs 20 mins"], "pointColor": "rgba(151,187,205,1)", "strokeColor": "rgba(151,187,205,1)", "pointStrokeColor": "#fff", "data": [0.0, 0.0, 0.0, 0.0, 5.483888888888889, 10.603333333333333, 2.3741666666666665], "label": "Dataset"}]};
-var totalTime = "18 hours 27 minutes";
-var languages = ["JavaScript", "PHP", "HTML"];
+var data = {"labels": ["23 May", "24 May", "25 May", "26 May", "27 May", "28 May", "29 May"], "datasets": [{"languages": [["JavaScript", "JSON", "Markdown"], ["JavaScript", "Ruby", "Python"], ["Ruby", "JavaScript"], ["JavaScript", "Ruby", "JSON"], ["C"], [], ["Ruby", "JavaScript"]], "pointHighlightFill": "#fff", "fillColor": "rgba(151,187,205,0.2)", "pointHighlightStroke": "rgba(151,187,205,1)", "time": ["56 mins", "2 hrs 4 mins", "1 hr 5 mins", "3 hrs 30 mins", "19 mins", "0 secs", "25 mins"], "pointColor": "rgba(151,187,205,1)", "strokeColor": "rgba(151,187,205,1)", "pointStrokeColor": "#fff", "data": [0.9569444444444445, 2.081111111111111, 1.1211111111111112, 3.535, 0.3225, 0.0, 0.44222222222222224], "label": "Dataset"}]};
+var totalTime = "8 hours 27 minutes";
+var languages = ["JavaScript", "Ruby", "Python"];
 var ctx = document.getElementById("chart").getContext("2d");
 var myLineChart = new Chart(ctx).Line(data, {
   tooltipTemplate: function(valuesObject){
